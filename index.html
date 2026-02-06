@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somapty Islam Soma | Finance & Management Professional</title>
+    <style>
+        :root {
+            --primary: #1e3a8a; /* Deep Finance Blue */
+            --accent: #0ea5e9;
+            --text-dark: #0f172a;
+            --text-light: #64748b;
+            --bg-soft: #f8fafc;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; color: var(--text-dark); background: #ffffff; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 25px; }
+
+        /* Header Section */
+        header { 
+            padding: 80px 0 40px; 
+            border-bottom: 3px solid var(--primary);
+            position: relative;
+        }
+        .profile-photo {
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            border: 1px solid #e2e8f0;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        header h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: 10px; }
+        .contact-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 10px; 
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        .contact-grid a { color: var(--primary); text-decoration: none; font-weight: 500; }
+
+        /* Section Layout */
+        section { padding: 40px 0; border-bottom: 1px solid #f1f5f9; }
+        .section-title { 
+            font-size: 1.2rem; 
+            color: var(--primary); 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+        .section-title::after { content: ""; height: 1px; background: #e2e8f0; flex-grow: 1; margin-left: 15px; }
+
+        /* Experience & Education Entries */
+        .card { margin-bottom: 25px; }
+        .card-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .card-title { font-weight: 700; font-size: 1.1rem; color: var(--text-dark); }
+        .card-org { color: var(--primary); font-weight: 600; display: block; margin-top: 2px; }
+        .card-date { font-size: 0.85rem; color: var(--text-light); font-weight: 500; }
+        
+        /* Skills Tags */
+        .tag-group { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .tag { background: var(--bg-soft); padding: 5px 12px; border-radius: 4px; font-size: 0.85rem; border: 1px solid #e2e8f0; }
+
+        /* Awards Zone */
+        .award-box { border-left: 3px solid var(--accent); padding-left: 15px; margin-bottom: 15px; }
+
+        /* Footer/Download */
+        .footer-action { text-align: center; padding: 60px 0; background: var(--bg-soft); }
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 2px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .btn:hover { background: var(--text-dark); }
+
+        @media (max-width: 768px) {
+            .profile-photo { position: static; margin-bottom: 20px; width: 120px; height: 120px; }
+            header { text-align: center; padding-top: 40px; }
+            .card-header { flex-direction: column; }
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="soma_profile.jpg" alt="Somapty Islam Soma" class="profile-photo">
+        
+        <h1>Somapty Islam Soma</h1>
+        <p style="font-size: 1.1rem; font-weight: 500;">BBA in Finance | Jagannath University</p>
+        
+        <div class="contact-grid">
+            <span>📍 Ishwardi, Pabna, Bangladesh</span>
+            <span>📞 +880 1302904190</span>
+            <a href="mailto:soma.somaptyislam@gmail.com">✉️ soma.somaptyislam@gmail.com</a>
+            <a href="https://www.linkedin.com/in/somapty-islam-a9465222a" target="_blank">🔗 LinkedIn Profile</a>
+            <span>Date of Birth: 11/10/2003</span>
+            <span>Nationality: Bangladeshi</span>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2 class="section-title">Professional Summary</h2>
+        <p style="text-align: justify; font-size: 1.05rem; color: #334155;">
+            To work in a diversified environment where there is an opportunity to apply my academic knowledge and creativity both as an individual and as a team member. My objective is to grow personally while contributing to the advancement of the organization.
+        </p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Bachelor of Business Administration (BBA)</span>
+                <span class="card-date">2022 – Current</span>
+            </div>
+            <span class="card-org">Department of Finance, Jagannath University (JnU)</span>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Higher Secondary Certificate (HSC)</span>
+                <span class="card-date">2018 – 2020</span>
+            </div>
+            <span class="card-org">Rajuk Uttara Model College (RUMC) | GPA: 5.00/5.00</span>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Secondary School Certificate (SSC)</span>
+                <span class="card-date">2013 – 2018</span>
+            </div>
+            <span class="card-org">Baghail School and College (BS&C) | GPA: 5.00/5.00</span>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Work Experience</h2>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Research Assistant (RA)</span>
+                <span class="card-date">02/2024 – 02/2025</span>
+            </div>
+            <span class="card-org">Dept. of Finance, Jagannath University / DNCC</span>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Treasurer</span>
+                <span class="card-date">06/2022 – Current</span>
+            </div>
+            <span class="card-org">Jagannath University Career Club (JnUCC)</span>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Intern, Communication Department</span>
+                <span class="card-date">05/2024 – 12/2024</span>
+            </div>
+            <span class="card-org">Bangladesh Youth Leadership Center (BYLC)</span>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Student Helper</span>
+                <span class="card-date">05/2024 – Current</span>
+            </div>
+            <span class="card-org">British Council, Dhaka</span>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="tag-group">
+            <span class="tag">Microsoft Excel (Advanced)</span>
+            <span class="tag">MS Word & PowerPoint</span>
+            <span class="tag">Adobe Photoshop</span>
+            <span class="tag">Adobe Illustrator</span>
+            <span class="tag">AI Graphics Design</span>
+            <span class="tag">Financial Research</span>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Honours and Awards</h2>
+        <div class="award-box">
+            <strong>Semi-Finalist</strong> | Phoenix of Presentation Season 2.0
+        </div>
+        <div class="award-box">
+            <strong>Finalist</strong> | HULT Prize Competition
+        </div>
+        <div class="award-box">
+            <strong>Second Place</strong> | Art Competition
+        </div>
+    </section>
+
+    <section style="border:none;">
+        <h2 class="section-title">Languages</h2>
+        <p><strong>Bangla:</strong> Native | <strong>English:</strong> Professional Proficiency</p>
+    </section>
+</div>
+
+<div class="footer-action">
+    <a href="Soma_CV.pdf" download class="btn">Download CV: Somapty Islam Soma</a>
+</div>
+
+<footer style="text-align: center; padding: 20px; font-size: 0.8rem; color: #94a3b8;">
+    &copy; 2026 Somapty Islam Soma | Portfolio
+</footer>
+
+</body>
+</html>
